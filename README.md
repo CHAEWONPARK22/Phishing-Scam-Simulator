@@ -1,4 +1,3 @@
-````markdown
 # 🛡️ Phishing Scam Prevention Simulator
 
 > AI-based Interactive Phishing Scam Prevention Service
@@ -39,7 +38,7 @@
 
 생성형 AI가 각 시나리오에 맞는 피싱범 역할을 수행하도록 **시나리오별 프롬프트를 설계**했습니다.
 
-```text
+
 User
   ↓
 Conversation Input
@@ -53,7 +52,7 @@ AI Phishing Conversation
 User Behavior Analysis
   ↓
 Risk Score & Feedback
-````
+
 
 ### Prompt Engineering
 
@@ -93,7 +92,7 @@ Risk Score & Feedback
 
 메신저 형태의 UI에서 AI와 직접 대화하면서 실제 피싱 상황과 유사한 상황을 체험할 수 있습니다.
 
-```text
+
 Scenario Selection
        ↓
 Phishing Conversation
@@ -103,7 +102,7 @@ User Response
 AI Response
        ↓
 Simulation Result
-```
+
 
 ### 2. User Behavior Analysis
 
@@ -123,7 +122,7 @@ Simulation Result
 
 사용자의 행동을 일관된 기준으로 평가하기 위해 시나리오별 행동 규칙과 가중치를 JSON 형태로 구성했습니다.
 
-```text
+
 Conversation
      ↓
 Behavior Detection
@@ -133,7 +132,7 @@ Rule Matching
 Weighted Score
      ↓
 Final Result
-```
+
 
 이를 통해 대화 결과를 바탕으로 사용자의 피싱 대응 수준을 분석하고 주요 위험 행동을 확인할 수 있도록 했습니다.
 
@@ -152,7 +151,7 @@ Final Result
 
 ## 🏗️ System Architecture
 
-```text
+
 ┌──────────────────────┐
 │      Frontend        │
 │  HTML / CSS / JS     │
@@ -180,7 +179,7 @@ Final Result
 ┌──────────────────────┐
 │   Result & Feedback  │
 └──────────────────────┘
-```
+
 
 ---
 
@@ -233,7 +232,7 @@ Final Result
 
 사용자의 대화 내용을 시나리오별 행동 규칙과 비교하여 피싱 위험 행동을 분석합니다.
 
-```text
+
 User Conversation
        ↓
 Behavior Detection
@@ -247,7 +246,7 @@ Weighted Score Calculation
 Final Result
        ↓
 Educational Feedback
-```
+
 
 각 시나리오의 규칙을 별도로 관리하여 새로운 피싱 유형이나 행동 규칙을 추가할 수 있도록 구성했습니다.
 
@@ -308,6 +307,3 @@ Educational Feedback
 ## 📚 Project Information
 
 본 프로젝트는 피싱·스캠 예방을 목적으로 생성형 AI 기반 대화 시뮬레이션과 규칙 기반 사용자 행동 분석을 결합하여 구현한 서비스입니다.
-
-```
-```
